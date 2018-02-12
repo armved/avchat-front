@@ -1,0 +1,22 @@
+{
+  "extends": ["prettier", "airbnb"],
+  "plugins": ["prettier"],
+  "rules": {
+    "prettier/prettier": "error",
+    "linebreak-style": 0,
+    "comma-dangle": ["error", "always-multiline"],
+    "react/prop-types": 0,
+    "jsx-a11y/anchor-is-valid": [
+      "error",
+      {
+        "components": ["Link"],
+        "specialLink": ["to"]
+      }
+    ],
+    "arrow-parens": ["error", "as-needed"]
+  },
+  "globals": {
+    "window": true,
+    "document": true
+  }
+}

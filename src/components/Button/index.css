@@ -1,0 +1,18 @@
+.btn {
+  height: 40px;
+  background-color: rgb(26, 128, 211);
+  color: white;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  width: 100%;
+  transition: 0.1s all ease-in-out;
+}
+
+.btn:hover {
+  background-color: rgb(22, 101, 165);
+}
+
+.btn:active {
+  background-color: rgb(18, 81, 133);
+}
