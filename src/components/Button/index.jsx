@@ -2,7 +2,7 @@ import React from 'react';
 import './index.css';
 
 const Button = props => (
-  <button style={props.style} className="btn">
+  <button type={props.type} style={props.style} className="btn" {...props}>
     {props.label}
   </button>
 );
